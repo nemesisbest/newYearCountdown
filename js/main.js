@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
 
 function playAudio(){
-    var Audio = new Audio;
-    Audio.src = "clock.mp3";
-    Audio.play();
+    var clockAudio = new Audio;
+    clockAudio.src = "clock.mp3";
+    clockAudio.play();
   }
