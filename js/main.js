@@ -96,3 +96,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     getCountdown();  // Caling once to initialze time
     setInterval(getCountdown,1000); // Caling once per 1000 ms in order to change time
   });
+
+function playAudio(){
+    var Audio = new Audio;
+    Audio.src = "clock.mp3";
+    Audio.play();
+  }
