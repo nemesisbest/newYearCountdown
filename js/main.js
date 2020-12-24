@@ -60,8 +60,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     calculatingDaysLeft();
     
     const changeDays = function(){
-        daysLeft = (daysLeft+'d').padStart(3,0);
-        daysBlock.textContent = daysLeft;                             // Days 
+        daysBlock.textContent = (daysLeft+'d').padStart(3,0);        // Days 
     }
 
     const changeHours = function(){
