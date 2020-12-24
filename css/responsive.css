@@ -5,6 +5,9 @@
         margin-bottom: 20px;
     }
     #countdown_container div{
+        height: 110px;
+        line-height: 110px;
+        font-size: 50px;
         padding: 0px;
         border: 1px solid rgba(0,0,0,0.2);
     }
