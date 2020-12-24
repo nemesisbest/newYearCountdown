@@ -99,6 +99,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
 function playAudio(){
     var clockAudio = new Audio;
-    clockAudio.src = "clock.mp3";
+    clockAudio.src = "https://nemesisbest.github.io/newYearCountdown/clock.mp3";
     clockAudio.play();
   }
