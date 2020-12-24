@@ -1,0 +1,16 @@
+@media (max-width:576px){
+    #countdown_container{
+        flex-direction: column-reverse;
+        min-width: 250px;
+        margin-bottom: 100px;
+    }
+    #countdown_container div{
+        padding: 0px;
+        border: 1px solid rgba(0,0,0,0.2);
+    }
+    #nextLeapYear,#ifLeapYear{
+        width: 100%;
+        text-align: center;
+        left:0;
+    }
+}
