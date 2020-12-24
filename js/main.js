@@ -92,7 +92,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     changeMinutes(); // Caling once to initialze time
     changeHours();   // Caling once to initialze time
-    //changeDays();    // Caling once to initialze time
+    changeDays();    // Caling once to initialze time
     getCountdown();  // Caling once to initialze time
     setInterval(getCountdown,1000); // Caling once per 1000 ms in order to change time
   });
